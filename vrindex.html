@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 VR Viewer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+</head>
+<body>
+    <div id="panorama" style="width: 100%; height: 100vh;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script>
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "https://drive.google.com/file/d/13woZBabFjnDBOata8CSwoAD750StBi6u/view?usp=sharing, https://drive.google.com/file/d/14qG3Z8iKut9Y1vPFv3pzIxXtdFzV5S9i/view?usp=sharing, https://drive.google.com/file/d/19pS10YpgHOP8NxlgeUHy6A33bM9EMW75/view?usp=sharing, https://drive.google.com/file/d/1PMhy5_SiAKN-KgN2xGOCF8bnmL_xynX9/view?usp=sharing, https://drive.google.com/file/d/1QDdKFxUcb8ACCHrHwo4GUmpWc01Z5xT4/view?usp=sharing, https://drive.google.com/file/d/1R4GbxvwScM8lrqEybRbx8xQKTSljkntX/view?usp=sharing, https://drive.google.com/file/d/1S4SUccDzT402LjgjjV-gCEXOtS_7N0K1/view?usp=sharing, https://drive.google.com/file/d/1YoNMjmA4WE1vTob-OdfKu25JpA1z3win/view?usp=sharing, https://drive.google.com/file/d/1Z0eLJIyG4Oib3qCoYfIvtTMdEGryBOx-/view?usp=sharing, https://drive.google.com/file/d/1Zyerm_Znk-4WzoVXpdXCajLyDoyJCi9n/view?usp=sharing, https://drive.google.com/file/d/1iCqnZMUBxmTAw7RUqWQLj0IrVebZyU0F/view?usp=sharing, https://drive.google.com/file/d/1j26OIy6wkvv8fc5NgeXXKBuemaAMKgIH/view?usp=sharing, https://drive.google.com/file/d/1nfN3sTc0DNDY7I6csxFMkXFxrInGNxhX/view?usp=sharing, https://drive.google.com/file/d/1oMakTjLMqjskFGJkBMRwFE7yHC5c7nSP/view?usp=sharing, https://drive.google.com/file/d/1sa7MIh9Hcjecksnq80ApqsUZBenchoe0/view?usp=sharing, https://drive.google.com/file/d/1tHEINT7kDivxqqLD_BNA0pEEcj2mzBx5/view?usp=sharing, https://drive.google.com/file/d/1tSBzrO1D2XEe8x_3GHa0xdnMTq7GGnJY/view?usp=sharing",  // 替换为你的360度图片的链接
+            "autoLoad": true,
+            "autoRotate": -2
+        });
+    </script>
+</body>
+</html>
